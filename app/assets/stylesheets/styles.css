@@ -22,6 +22,11 @@ body {
 	padding: 0px;
 }
 
+footer {
+	height: 40px;
+	background: rgb(56, 59, 53);
+}
+
 header {
 	padding: .5em;
 	color: rgb(122, 131, 233);
