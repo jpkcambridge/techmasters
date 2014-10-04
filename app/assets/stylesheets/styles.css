@@ -44,8 +44,9 @@ header {
 
 #general-info {
 	background: tan;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 70px;
-	padding-left: 70px;
+	padding: 20px 70px 20px 70px;
+}
+
+#faq {
+	padding: 20px 70px 20px 70px;
 }
