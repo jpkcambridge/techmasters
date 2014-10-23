@@ -29,11 +29,15 @@ footer {
 
 header {
 	padding: .5em;
-	color: rgb(122, 131, 233);
 	text-shadow: 1px 0px 2px rgba(255, 245, 119, 0.75);
 	text-align: center;
 	font-size: 40px;
 	background: aliceblue;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(122, 131, 233);
 }
 
 .content {
@@ -49,6 +53,11 @@ header {
 
 #general-info {
 	background: tan;
+	padding: 20px 70px 20px 70px;
+}
+
+#about-team {
+	background: white;
 	padding: 20px 70px 20px 70px;
 }
 
