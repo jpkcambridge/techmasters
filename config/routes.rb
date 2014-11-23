@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get '/faq' => 'home#faq'
   get '/schedule' => 'home#schedule'
+  get '/interested' => 'home#interested'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

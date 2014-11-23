@@ -6,6 +6,9 @@ class HomeController < ApplicationController
   def schedule
   end
 
+  def interested
+  end
+
   def faq
   end
 
