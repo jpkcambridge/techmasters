@@ -9,6 +9,10 @@ class HomeController < ApplicationController
   def interested
   end
 
+  def interested_info
+    redirect_to root_path
+  end
+
   def faq
   end
 

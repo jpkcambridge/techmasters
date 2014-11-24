@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/schedule' => 'home#schedule'
   get '/interested' => 'home#interested'
 
+  post 'interested_info' => 'home#interested_info'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
