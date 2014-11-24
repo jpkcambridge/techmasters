@@ -10,7 +10,9 @@ class HomeController < ApplicationController
   end
 
   def interested_info
-    InfoMailer.interested_info_email({test: 'test'}).deliver
+    InfoMailer.interested_info_email(params[:interested_info]).deliver
+
+    flash[:notice] = "Thanks for your interest!  We will be in touch."
 
     redirect_to root_path
   end

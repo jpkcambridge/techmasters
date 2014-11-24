@@ -1,33 +1,45 @@
 <div class="content form-content">
 	<p style="font-size: 28px">If interested in joining Tech Masters, please fill out and submit this form and we will follow up with you.</p>
 	<%= form_tag 'interested_info' do %>
+		<%= fields_for :interested_info do |ii|%>
+			<div>
+				<%= label_tag 'question_1', 'When you typically swim now, how long do you usually swim?'%>
+				<%= ii.text_area 'question_1', size: '10x5' %>
+			</div>
 
-		<div>
-			<%= label_tag 'question_1', 'When you typically swim now, how long do you usually swim?'%>
-			<%= text_area_tag 'question_1', nil, size: "10x5" %>
-		</div>
+			<div>
+				<%= label_tag 'question_2', 'How far do you usually go?'%>
+				<%= ii.text_area 'question_2', size: "10x5" %>
+			</div>
 
-		<div>
-			<%= label_tag 'question_2', 'How far do you usually go?'%>
-			<%= text_area_tag 'question_2', nil, size: "10x5" %>
-		</div>
+			<div>
+				<%= label_tag 'question_3', 'Can you swim freestyle, backstroke, breaststroke and butterfly?'%>
+				<%= ii.text_area 'question_3', size: "10x5" %>
+			</div>
 
-		<div>
-			<%= label_tag 'question_3', 'Can you swim freestyle, backstroke, breaststroke and butterfly?'%>
-			<%= text_area_tag 'question_3', nil, size: "10x5" %>
-		</div>
+			<div>
+				<%= label_tag 'question_4', 'If you were to swim 5 sets of 100 yards, what interval would you do them on?'%>
+				<%= ii.text_area 'question_4', size: "10x5" %>
+			</div>
 
-		<div>
-			<%= label_tag 'question_4', 'If you were to swim 5 sets of 100 yards, what interval would you do them on?'%>
-			<%= text_area_tag 'question_4', nil, size: "10x5" %>
-		</div>
+			<div>
+				<%= label_tag 'question_5', 'Are you interested in swimmming at 6:15 am, noon or 7:00 pm - 8:30. You can attend any session you want, but you might find it is easier to attend one time regularly. We have workouts monday through friday at those times.'%>
+				<%= ii.text_area 'question_5', size: "10x5" %>
+			</div>
 
-		<div>
-			<%= label_tag 'question_5', 'Are you interested in swimmming at 6:15 am, noon or 7:00 pm - 8:30. You can attend any session you want, but you might find it is easier to attend one time regularly. We have workouts monday through friday at those times.'%>
-			<%= text_area_tag 'question_5', nil, size: "10x5" %>
-		</div>
-		<div class="button-wrapper">
-			<%= submit_tag 'Submit' %>
-		</div>
+			<div>
+				<%= label_tag 'email_address', 'Please enter your email address so that we may follow up with you.'%>
+				<%= ii.text_field 'email_address', size: "10x5" %>
+			</div>
+
+			<div>
+				<%= label_tag 'swimmer_name', 'Your name.'%>
+				<%= ii.text_field 'swimmer_name', size: "10x5" %>
+			</div>
+
+			<div class="button-wrapper">
+				<%= submit_tag 'Submit' %>
+			</div>
+		<% end %>
 	<% end %>
 </div>

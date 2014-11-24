@@ -60,6 +60,10 @@ nav a {
 	background-image: asset-url("swimmer2.gif", gif);
 }
 
+.notice {
+	background-color: yellow;
+}
+
 div.button-wrapper {
 	text-align: right;
 }
@@ -81,11 +85,15 @@ label {
 	display: block;
 }
 
-textarea {
+textarea,input[type="text"] {
 	width: 100%;
 	border-radius: 5px;
 	font-size: 16px;
 	margin: 12px 0;
+}
+
+input[type="text"] {
+	height: 35px;
 }
 ///////////////////
 
