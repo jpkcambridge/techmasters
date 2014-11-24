@@ -10,6 +10,8 @@ class HomeController < ApplicationController
   end
 
   def interested_info
+    InfoMailer.interested_info_email({test: 'test'}).deliver
+
     redirect_to root_path
   end
 
