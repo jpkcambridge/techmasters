@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   root 'home#index'
 
+
   get '/faq' => 'home#faq'
   get '/schedule' => 'home#schedule'
   get '/interested' => 'home#interested'
+  get '/pay' => 'home#pay'
   get '/contact-us' => 'home#contact_us'
 
   post 'interested_info' => 'home#interested_info'

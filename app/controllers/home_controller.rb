@@ -17,6 +17,9 @@ class HomeController < ApplicationController
     redirect_to root_path
   end
 
+  def pay
+  end
+
   def faq
   end
 
