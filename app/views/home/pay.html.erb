@@ -1,20 +1,29 @@
 <div class="content">
-	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-		<input type="hidden" name="cmd" value="_s-xclick">
-		<input type="hidden" name="hosted_button_id" value="KKVQBY4S3V6LQ">
-		<table>
-			<tr><td>
-				<input type="hidden" name="on0" value="Tech Masters Swimming Fees">Tech Masters Swimming Fees
-			</td></tr>
-			<tr><td>
-				<select name="os0">
-					<option value="Student">Student $100.00 USD</option>
-					<option value="Non-Student">Non-Student $175.00 USD</option>
-				</select>
-			</td></tr>
-		</table>
-		<input type="hidden" name="currency_code" value="USD">
-		<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	</form>
+	<div id="pay">
+		<p>
+			Pay on deck by giving Bill cash or a check payable to Tech Masters Swimming. Or pay using the PayPal link below.
+		</p>
+		<ul>
+	        <li>Early bird (pay by January 15th) - students $100 and non students $175</li>
+	        <li>Late (paying after January 15th) - student $120 then non students $195</li>
+	    </ul>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="KKVQBY4S3V6LQ">
+			<table>
+				<tr><td>
+					<input type="hidden" name="on0" value="Tech Masters Swimming Fees">Tech Masters Swimming Fees
+				</td></tr>
+				<tr><td>
+					<select name="os0">
+						<option value="Student">Student $100.00 USD</option>
+						<option value="Non-Student">Non-Student $175.00 USD</option>
+					</select>
+				</td></tr>
+			</table>
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
 </div>
