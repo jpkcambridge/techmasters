@@ -112,6 +112,7 @@ input[type="text"] {
 #general-info {
 	background: white;
 	padding: 20px 70px 20px 70px;
+	text-align: center;
 }
 
 #about-team {
@@ -132,6 +133,10 @@ input[type="text"] {
 .stretchy-container {
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+.team-pic img {
+	width: 33%;
 }
 
 div.stretchy-wrapper {
