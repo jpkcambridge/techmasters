@@ -1,0 +1,207 @@
+/* line 1, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 7, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+h1, h2, h3 {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+/* line 11, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+header {
+  font-family: 'Hammersmith One', sans-serif;
+  padding: .5em;
+  text-shadow: 1px 0px 2px rgba(255, 245, 119, 0.75);
+  text-align: center;
+  font-size: 40px;
+  background: aliceblue;
+}
+
+/* line 20, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+header a {
+  text-decoration: none;
+  color: #7a83e9;
+}
+
+/* line 25, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+footer {
+  height: 40px;
+  background: #383b35;
+}
+
+/* line 30, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+nav {
+  text-align: center;
+}
+
+/* line 34, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+/* line 39, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+nav ul li {
+  font-size: 24px;
+  display: inline;
+  margin: 8px 20px 8px 20px;
+}
+
+/* line 45, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+nav a {
+  color: #f8b253;
+}
+
+/* line 49, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.swimmer-gifs-1 {
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-image: url(/assets/swimmer1.gif);
+}
+
+/* line 56, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.swimmer-gifs-2 {
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-image: url(/assets/swimmer2.gif);
+}
+
+/* line 63, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.notice {
+  background-color: yellow;
+}
+
+/* line 67, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+div.button-wrapper {
+  text-align: right;
+}
+
+/* line 71, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+input[type="submit"] {
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* line 80, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.form-content {
+  margin: 0% 20%;
+}
+
+/* line 84, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+label {
+  display: block;
+}
+
+/* line 88, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+textarea, input[type="text"] {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+/* line 95, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+input[type="text"] {
+  height: 35px;
+}
+
+/* line 101, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.content {
+  color: #515253;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* line 107, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#announcements {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+/* line 112, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#general-info {
+  background: white;
+  padding: 20px 70px 20px 70px;
+  text-align: center;
+}
+
+/* line 118, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#about-team {
+  background: white;
+  padding: 20px 70px 20px 70px;
+}
+
+/* line 123, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.schedule-tan {
+  background: tan;
+  padding: 20px 70px 20px 70px;
+}
+
+/* line 128, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.schedule-white {
+  background: white;
+  padding: 20px 70px 20px 70px;
+}
+
+/* line 133, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.stretchy-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* line 138, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+.team-pic img {
+  width: 33%;
+}
+
+/* line 142, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+div.stretchy-wrapper {
+  width: 100%;
+  padding-bottom: 56%;
+  position: relative;
+}
+
+/* line 148, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+div.stretchy-wrapper > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 154, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#faq {
+  padding: 20px 70px 20px 70px;
+}
+
+/* line 158, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#contact {
+  padding: 20px 70px 20px 70px;
+}
+
+/* line 162, /Users/john/Desktop/techmasters/app/assets/stylesheets/styles.css.scss */
+#pay {
+  padding: 20px 70px 20px 70px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
