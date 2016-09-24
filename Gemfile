@@ -14,5 +14,3 @@ gem 'rails_12factor', group: :production
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'newrelic_rpm'
-
-gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
