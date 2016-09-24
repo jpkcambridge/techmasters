@@ -15,3 +15,4 @@ gem 'rails_12factor', group: :production
 
 gem 'newrelic_rpm'
 
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
